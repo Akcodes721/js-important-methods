@@ -1,84 +1,87 @@
-JavaScript Array and String Methods
+# JavaScript Array and String Methods
 
 This repository provides examples and explanations for common array and string methods in JavaScript.
-Array Methods
-1. map
 
-    Description:
-        The map method is used to create a new array by applying a provided function to each element of the existing array.
+## Array Methods
 
-    Use Case:
-        Useful when you need to transform each element in an array based on a specific operation.
+### 1. `map`
 
-2. filter
+- **Description:**
+  - The `map` method is used to create a new array by applying a provided function to each element of the existing array.
 
-    Description:
-        The filter method creates a new array with elements that pass a specified condition defined by a provided function.
+- **Use Case:**
+  - Useful when you need to transform each element in an array based on a specific operation.
 
-    Use Case:
-        Ideal when you want to extract elements from an array based on a particular criterion.
+### 2. `filter`
 
-3. reduce
+- **Description:**
+  - The `filter` method creates a new array with elements that pass a specified condition defined by a provided function.
 
-    Description:
-        The reduce method is used to accumulate values of an array into a single result by applying a provided function.
+- **Use Case:**
+  - Ideal when you want to extract elements from an array based on a particular criterion.
 
-    Use Case:
-        Valuable when you need to calculate a cumulative result, such as finding the sum or product of an array.
+### 3. `reduce`
 
-4. forEach
+- **Description:**
+  - The `reduce` method is used to accumulate values of an array into a single result by applying a provided function.
 
-    Description:
-        The forEach method iterates over the elements of an array, executing a provided function for each element.
+- **Use Case:**
+  - Valuable when you need to calculate a cumulative result, such as finding the sum or product of an array.
 
-    Use Case:
-        Helpful when you want to perform an operation on each element of an array.
+### 4. `forEach`
 
-5. indexOf and lastIndexOf
+- **Description:**
+  - The `forEach` method iterates over the elements of an array, executing a provided function for each element.
 
-    Description:
-        indexOf finds the index of a specified element in an array. lastIndexOf searches from the end of the array.
+- **Use Case:**
+  - Helpful when you want to perform an operation on each element of an array.
 
-    Use Case:
-        Useful for locating the position of an element within an array.
+### 5. `indexOf` and `lastIndexOf`
 
-6. includes
+- **Description:**
+  - `indexOf` finds the index of a specified element in an array. `lastIndexOf` searches from the end of the array.
 
-    Description:
-        The includes method checks if an array includes a specific element.
+- **Use Case:**
+  - Useful for locating the position of an element within an array.
 
-    Use Case:
-        Convenient for verifying the presence of an element in an array.
+### 6. `includes`
 
-String Methods
-1. toUpperCase and toLowerCase
+- **Description:**
+  - The `includes` method checks if an array includes a specific element.
 
-    Description:
-        toUpperCase and toLowerCase convert a string to uppercase or lowercase, respectively.
+- **Use Case:**
+  - Convenient for verifying the presence of an element in an array.
 
-    Use Case:
-        Useful when you need to standardize the case of characters in a string.
+## String Methods
 
-2. split
+### 1. `toUpperCase` and `toLowerCase`
 
-    Description:
-        The split method divides a string into an array of substrings based on a specified separator.
+- **Description:**
+  - `toUpperCase` and `toLowerCase` convert a string to uppercase or lowercase, respectively.
 
-    Use Case:
-        Valuable for breaking down a string into individual components.
+- **Use Case:**
+  - Useful when you need to standardize the case of characters in a string.
 
-3. join
+### 2. `split`
 
-    Description:
-        The join method concatenates the elements of an array into a string using a specified separator.
+- **Description:**
+  - The `split` method divides a string into an array of substrings based on a specified separator.
 
-    Use Case:
-        Useful when you want to combine array elements into a single string.
+- **Use Case:**
+  - Valuable for breaking down a string into individual components.
 
-4. substring, substr, and slice
+### 3. `join`
 
-    Description:
-        These methods extract parts of a string based on specified positions or lengths.
+- **Description:**
+  - The `join` method concatenates the elements of an array into a string using a specified separator.
 
-    Use Case:
-        Helpful when you need to obtain specific substrings from a larger string.
+- **Use Case:**
+  - Useful when you want to combine array elements into a single string.
+
+### 4. `substring`, `substr`, and `slice`
+
+- **Description:**
+  - These methods extract parts of a string based on specified positions or lengths.
+
+- **Use Case:**
+  - Helpful when you need to obtain specific substrings from a larger string.
