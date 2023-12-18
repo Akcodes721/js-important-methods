@@ -8,6 +8,8 @@ This repository provides examples and explanations for common array and string m
 
 - **Description:**
   - The `map` method is used to create a new array by applying a provided function to each element of the existing array.
+    
+    -  Map: It's like a transformation operation on each element of the array. You apply a function to every element, and the result is a new array where each element is the result of applying that function to the corresponding element in the original array.
 
 - **Use Case:**
   - Useful when you need to transform each element in an array based on a specific operation.
@@ -19,6 +21,9 @@ This repository provides examples and explanations for common array and string m
 
 - **Use Case:**
   - Ideal when you want to extract elements from an array based on a particular criterion.
+  
+  -  Filter: It's like a selective operation. You provide a condition, and it creates a new array with only the elements that satisfy that condition. Elements that don't meet the condition are excluded from the new array.
+
 
 ### 3. `reduce`
 
